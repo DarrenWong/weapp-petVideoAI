@@ -1,7 +1,6 @@
 # Weapp-petVideoAI Demo 宠物小视频识别Demo
-Developed and published the weapp as personal developer. 
-The app demonstrates the 3 pet vidoe label detection demo using Google Video Intelligence API beta.
-Combined the auth and websocket function based on the weapp related respository https://github.com/tencentyun and some others on the github.
+Developed and distributed as personal developer. The app demonstrates 3 pet videos label detection demo using Google Video Intelligence API beta.
+Also combined the auth and websocket function based on the weapp related respository https://github.com/tencentyun and some others weapp developer.
 
 
 ### WeApp online version code ( at least WeChat v6.5.7)
