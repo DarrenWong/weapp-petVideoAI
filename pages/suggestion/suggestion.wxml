@@ -1,0 +1,11 @@
+<view class="container">
+  <view class="section">
+    <audio class='video' poster="{{poster}}" name="{{name}}" author="{{author}}" src="{{src}}" id="myAudio" bindtap="audioChange" controls loop></audio>
+    <form bindsubmit="bindFormSubmit" class="submitform">
+      <textarea placeholder="建议" name="textarea"/>
+      <button form-type="submit"> 提交 </button>
+    </form>
+  </view>
+  <view class="text">
+  <text>建议直接email: darrenwongf@gmail.com,此处提交不做处理</text></view>
+</view>

@@ -1,0 +1,20 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    <text class="userinfo-login">{{lastlog}}</text>
+  </view>
+</view>
+<view class="zan-panel">
+    <view class="zan-cell zan-cell--access" bindtap="logClick">
+      <view class="zan-cell__bd">启动日志</view>
+      <view class="zan-cell__ft"></view>
+    </view>
+    <view class="zan-cell zan-cell--access" bindtap="suggestionClick">
+      <view class="zan-cell__bd">建议</view>
+      <view class="zan-cell__ft"></view>
+    </view>
+  </view>
+  
+

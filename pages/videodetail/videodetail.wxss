@@ -1,0 +1,23 @@
+.page-body image {
+  width: 1000rpx;
+  height: 1000rpx;
+
+  margin: 0 75rpx;
+}
+.container {
+    width: 100%;
+    height: 100%;
+}
+.container video {
+    width: 100%;
+    height: 15rem;
+    background: black;
+}
+.page-body-text{
+    font-size: 15px;
+    padding: 0px 10px 0px 5rem;
+}
+
+.page-body-wording{
+    padding: 0px 10px 0px 10px;
+}

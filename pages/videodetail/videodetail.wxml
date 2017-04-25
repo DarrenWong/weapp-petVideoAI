@@ -1,0 +1,8 @@
+<view class="container">
+  <video src="{{videoSrc}}" ></video>
+  <scroll-view scroll-y="true" style="height: 300px;" class="page-body-wording" >
+      <text class="page-body-text">
+        {{demolabel}}
+      </text>
+  </scroll-view>
+</view>

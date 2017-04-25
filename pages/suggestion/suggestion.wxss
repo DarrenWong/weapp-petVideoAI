@@ -1,0 +1,22 @@
+.video {
+   align-items: center;
+   position: relative;
+   padding: 10px 10px 40px 20px;
+}
+.container .text {
+    position:absolute;
+    bottom:20px;
+    font-size: 12px;
+    padding: 0px 10px 0px 20px;
+}
+
+.submitform textarea{
+   align-items: center;
+   position: relative;
+   padding: 10px 10px 10px 10px;
+}
+.submitform button{
+   align-items: center;
+   position: relative;
+   padding: 10px 10px 10px 10px;
+}

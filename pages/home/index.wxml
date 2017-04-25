@@ -1,0 +1,36 @@
+<!--index.wxml-->
+<view class="container">
+    <view>
+        <swiper class="swiper_box" indicator-dots="{{indicatorDots}}" vertical="{{vertical}}"
+                autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" bindchange="swiperchange">
+            <block wx:for-items="{{images}}">
+                <swiper-item>
+                    <image src="{{item}}" class="slide-image"/>
+                </swiper-item>
+            </block>
+        </swiper>
+    </view>
+
+    <view class="text">
+        <view class="line_flag"></view>
+        <text>宠物识别展示 -- Source by YouTuBe and GCP Video API Beta</text>
+    </view>
+
+    <block wx:for-items="{{items}}">
+        <view class="flex item" 
+        data-image="{{item.image}}"
+        data-video="{{item.video_url}}"
+        data-title="{{item.title}}"
+        data-vid="{{item.vid}}"
+        bindtap="videoDetailClick" >
+            <view class="item_left">
+                <image src="{{item.image}}"/>
+            </view>
+            <view class="flex_auto item_middle">
+                <view><text class="title">{{item.title}}</text></view>
+                <!--<view><text class="sub_title">{{item.subTitle}}</text></view>-->
+                <view><text class="demolabel">Label : {{item.label}}</text></view>
+            </view>
+        </view>
+    </block>
+</view>
